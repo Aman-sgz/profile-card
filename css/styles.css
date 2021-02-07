@@ -6,16 +6,19 @@
     --stats-color: hsl(0, 0%, 59%);
 }
 
+html {
+    overflow-y: hidden;
+}
+
 body {
     background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
     background-repeat: no-repeat no-repeat;
-    background-position: 130% 150%, -20% -60%;
+    background-position: -810px -450px, 70px 300px; 
     background-color: var(--main-bg-color);
     font-family: 'Kumbh Sans', sans-serif;
-    min-height: 100vh;
+    min-height: 100vh;   
 }
 
-/* card */
 .card {
     background-color: var(--card-bg-color);
     width: 330px;
@@ -110,8 +113,14 @@ body {
     padding: 0 .3rem;
 }
 
-
-/* Footer */
+.footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    padding: 2rem;
+    width: 100%;
+}
 
 .attribution { 
     font-size: 11px; 

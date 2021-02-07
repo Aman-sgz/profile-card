@@ -1,0 +1,17 @@
+@media screen and (min-width: 768px) {
+    body {
+        background-position: -580px -450px, 300px 300px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-position: -400px -450px, 500px 300px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-position: -300px -450px, 700px 300px;
+    }
+}
