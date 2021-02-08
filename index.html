@@ -1,65 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./css/styles.css">
-  <link rel="stylesheet" href="./css/media_queries.css">
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Profile card component</title>
 
 </head>
+
 <body>
 
   <main>
-    <article class="card">
-      <header class="card__header">
-        <img class="card__img" src="./images/image-victor.jpg" alt="user image">
-      </header>
+    <div class="main">
+      <article class="card">
+        <header class="card__header">
+          <img class="card__img" src="./images/image-victor.jpg" alt="user image">
+        </header>
 
-      <div class="card__body">
-        <p class="card__text card__text--name">
-          Victor Crest
-          <span class="card__text card__text--age">26</span>
-        </p>
-        <p class="card__text card__text--city">London</p>
-      </div>
-
-      <footer class="card__footer">
-        <div class="card__stats">
-          <p class= "card__number">
-            80K
-            <span class="card__text card__text--light">Followers</span>
+        <div class="card__body">
+          <p class="card__text card__text--name">
+            Victor Crest
+            <span class="card__text card__text--age">26</span>
           </p>
+          <p class="card__text card__text--city">London</p>
         </div>
 
-        <div class="card__stats">
-          <p class="card__number">
-            803K
-            <span class="card__text card__text--light">Likes</span>
-          </p>
-        </div>
-        
-        <div class="card__stats">
-          <p class="card__number">
-          1.4K  
-          <span class="card__text card__text--light">Photos</span>
-          </p>
-        </div>  
-      </footer>
+        <footer class="card__footer">
+          <div class="card__stats">
+            <p class="card__number">
+              80K
+              <span class="card__text card__text--light">Followers</span>
+            </p>
+          </div>
 
-    </article>
+          <div class="card__stats">
+            <p class="card__number">
+              803K
+              <span class="card__text card__text--light">Likes</span>
+            </p>
+          </div>
+
+          <div class="card__stats">
+            <p class="card__number">
+              1.4K
+              <span class="card__text card__text--light">Photos</span>
+            </p>
+          </div>
+        </footer>
+
+      </article>
+    </div>
+
   </main>
 
   <footer class="footer">
-      <div class="attribution">
-        <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    <div class="attribution">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
         Coded by <a href="#">@Aman-sgz</a></p>
-      </div>
+    </div>
   </footer>
 
 </body>
+
 </html>

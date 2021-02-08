@@ -12,13 +12,19 @@ html {
 
 body {
     background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
-    background-repeat: no-repeat no-repeat;
-    background-position: -810px -450px, 70px 300px; 
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 35vw bottom 50vh, left 30vw top 50vh;
     background-color: var(--main-bg-color);
     font-family: 'Kumbh Sans', sans-serif;
-    min-height: 100vh;   
+    min-height: 100vh;
 }
 
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 .card {
     background-color: var(--card-bg-color);
     width: 330px;
@@ -26,7 +32,6 @@ body {
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-    transform: translateY(30%);
     overflow: hidden;
 }
 
@@ -83,7 +88,6 @@ body {
     padding-top: 5px;
 }
 
-
 .card__footer {
     border-top: 1px solid var(--line-color);
     display: flex;
@@ -118,16 +122,23 @@ body {
     left: 0;
     bottom: 0;
     height: 30px;
-    padding: 2rem;
+    margin-top: 1rem;
+    padding: 1rem 0;
     width: 100%;
 }
 
 .attribution { 
-    font-size: 11px; 
+    font-size: 10px; 
     text-align: center; 
     color: var(--text-color);
 }
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+    }
 }
