@@ -6,17 +6,12 @@
     --stats-color: hsl(0, 0%, 59%);
 }
 
-html {
-    overflow-y: hidden;
-}
-
 body {
     background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: right 35vw bottom 50vh, left 30vw top 50vh;
     background-color: var(--main-bg-color);
     font-family: 'Kumbh Sans', sans-serif;
-    min-height: 100vh;
 }
 
 .main {
@@ -25,6 +20,7 @@ body {
     align-items: center;
     height: 100vh;
 }
+
 .card {
     background-color: var(--card-bg-color);
     width: 330px;
@@ -32,6 +28,7 @@ body {
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 3rem;
     overflow: hidden;
 }
 
