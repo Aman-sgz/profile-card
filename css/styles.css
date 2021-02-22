@@ -12,6 +12,7 @@ body {
     background-position: right 35vw bottom 50vh, left 30vw top 50vh;
     background-color: var(--main-bg-color);
     font-family: 'Kumbh Sans', sans-serif;
+    overflow: hidden;
 }
 
 .main {
