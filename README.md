@@ -37,17 +37,17 @@
 <!-- Overview section -->
 
 ## Overview
+![preview screenshot](images/profile_card.png)  
+
 - Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 - You can see a live site at [Profile Card Component](https://profile-card-aman-sgz.vercel.app/)
 
-![preview screenshot](images/profile_card.png)
 
 
 
 ### Built with 
 
-- Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
@@ -60,8 +60,7 @@
 
 - Frontend Mentor [@Aman-sgz](https://www.frontendmentor.io/profile/Aman-sgz)
 
-
-- Twitter Aman [@tresenlinea_](https://www.twitter.com/tresenlinea_)  
+- Twitter Aman [@Aman_arg](https://www.twitter.com/Aman_arg)  
 
 ---
 
